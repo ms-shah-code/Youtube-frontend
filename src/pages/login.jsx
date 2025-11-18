@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { ToastContainer } from "react-toastify"
 import "../signup.css"
 import { Link, useNavigate } from 'react-router-dom'
-import { handleSuccess, handleUpdate, handleError } from '../utility'
+import { handleSuccess, handleError } from '../utility'
 import { useAuth } from '../context/authContext'
 
 const login = () => {
